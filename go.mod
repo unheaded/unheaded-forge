@@ -10,5 +10,3 @@ require (
 )
 
 replace unheaded => ../../unheaded
-
-replace github.com/unheaded/doomgeneric => ../doomgeneric/unheaded
