@@ -75,11 +75,6 @@ CATEGORIES = {
         "prompt_prefix": "project documentation",
         "qa_count": 10,
     },
-    "doom_docs": {
-        "pattern": f"{PROJECT_ROOT}/docs/doom/*.md",
-        "prompt_prefix": "DOOM-over-IPv6 technical documentation",
-        "qa_count": 10,
-    },
     "runbooks": {
         "pattern": f"{PROJECT_ROOT}/runbooks/**/*.yaml",
         "prompt_prefix": "operational runbook",
