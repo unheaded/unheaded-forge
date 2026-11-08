@@ -2,3 +2,7 @@ target/
 __pycache__/
 *.wad
 *.WAD
+# Trained weights are never published (corpus authorization, DP-705).
+*.gguf
+*.gguf.checkpoint-*
+*.safetensors

@@ -45,7 +45,7 @@ Loss descent was not generation skill, and the notes put the cause on the data: 
 | `crates/zhenai-forge` | trainer, kernels, notes |
 | `cmd/zhen-flywheel`, `man/` | ingests captures, labels them, exports training sets. Builds against `../../unheaded` for `pkg/zhencapture`. The capture tables stay in the Well and captures stay off |
 | `scripts/` | train, watchdog, tokenizers, converter |
-| `raft/kingdom-w12` | the WAVE12 LoRA and its checkpoints, for comparison only: it collapses |
+| (not here) | the WAVE12 LoRA and its checkpoints (it collapses) are not published: trained weights stay on west, `/var/tmp/unheaded-sprint/forge-kingdom-w12/` |
 | `raft/scripts` | the old Mistral RAFT pipeline and the corpus scripts that fed the retired FAISS index |
 | `runbooks/data` | the three runbooks that drove them |
 | `docs/`, `wiki/` | the ADRs, WAVE plans and pages, copied |
